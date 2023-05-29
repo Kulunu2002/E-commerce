@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.admin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.add-clothes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.add-clothe-cate {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    border: 1px solid #5a5a5a;
+    border-radius: 20px;
+    padding: 0rem 3rem;
+    width: 800px;
+}
+
+.add-clothe-cate img {
+    width: 100px;
+}
+
+.add-clothe-cate p {
+    font-size: 2rem;
+    color: #5a5a5a;
+}
+
+.clothe-form {
+    padding: 2rem 0.3rem;
+    border: 1px solid #5a5a5a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.add-img {
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px; */
+}
+
+.admin-form input {
+    padding: 0.5rem 2rem;
+    border: 2px solid #5a5a5a;
+    border-radius: 10px;
+    width: 350px;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
