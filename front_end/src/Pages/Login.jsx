@@ -80,7 +80,8 @@ export default function Login() {
                 </div>
                 <div className="login-details">
                     <div className="logo">
-                        <h1>FashionHub</h1>
+                        <img src="../Images/logo-0.png" alt="" />
+
                     </div>
 
                     <Fade left>
